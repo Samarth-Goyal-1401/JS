@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{  
+    background-color:darkcyan ;
+}
+
+.main{
+    height: 76vh;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: black;   
+    font-size: 25px;
+}
+
+.playArea{
+    display: grid;
+    margin-top: 20px;
+    margin-left: 50px;
+    grid-template-columns:200px 200px 200px;    
+    gap: 20px;
+}
+
+.boxes{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    color: white;
+}
+
+.boxes:hover{
+    cursor: pointer;
+    box-shadow: black 5px 5px 15px;
+}
+
+.boxes:disabled{
+    border: 5px solid black;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkcyan ;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+#reset{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+#reset:hover{
+    cursor: pointer;
+}
+
